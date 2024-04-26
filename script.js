@@ -11,9 +11,9 @@ function padRow(rowNumber, rowCount) {
 }
 
 // TODO: use a different type of loop
-/*for (let i = 1; i <= count; i++) {
+for (let i = 1; i <= count; i++) {
   rows.push(padRow(i, count));
-}*/
+}
 
 /*while (rows.length < count) {
   rows.push(padRow(rows.length + 1, count));
@@ -22,12 +22,6 @@ function padRow(rowNumber, rowCount) {
 /*for (let i = count; i > 0; i--) {
   rows.push(padRow(i, count));
 }*/
-
-const numbers = [1, 2, 3];
-
-const unshifted = numbers.unshift(5);
-console.log(unshifted);
-console.log(numbers);
 
 let result = "";
 
