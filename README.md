@@ -1,3 +1,3 @@
 # learning-basic-javascript-pt3
 
-- Building pyradid using const, looping
+- Building pyramid using const, looping
